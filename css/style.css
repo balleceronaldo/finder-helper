@@ -1,0 +1,79 @@
+* {
+  box-sizing: boarder-box;
+  padding: 0;
+  margin: 0;
+}
+#map{
+  position:absolute;
+  width: 100%;
+  height: 50vh;
+  margin-top: 0px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* img #nav-logo{
+  display: flex;
+  width: fit-content;
+} */
+
+.section-1{
+  margin-top: 400px;
+}
+
+.login-container {
+  max-width: 300px;
+}
+
+footer a, footer a:visited, footer a:hover, footer a:focus, .form-link a, .form-link a:hover{
+  text-decoration: none;
+  color:#148ec7;
+}
+
+.btn-1 {
+  border-radius: 25px;
+}
+
+button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+footer {
+  line-height: 1.5;
+}
+
+footer .container span .chevron i{
+  color: #148ec7;
+}
+
+.grayed-text {
+  color: rgb(151, 151, 151);
+}
+
+
+.fade-in { animation: fadeIn 2.5s; }
+
+#navBar {
+  box-shadow:rgba(13, 14, 18, 0.1) 0px 3px 5px;
+}
+
+.coverImg {
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@media(max-width: 500px){
+  .section-1{
+    margin-top: 400px;
+  }
+}
